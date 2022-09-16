@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304C8EA328D47C6700C6C97D /* memo.md in Resources */ = {isa = PBXBuildFile; fileRef = 304C8EA228D47C6700C6C97D /* memo.md */; };
 		ADAD913C22B0FDAE007B460A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAD913B22B0FDAE007B460A /* README.md */; };
 		ADB0DFFD22AFA6090030352D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0DFFC22AFA6090030352D /* AppDelegate.swift */; };
 		ADB0E00122AFA6090030352D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0E00022AFA6090030352D /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		304C8EA228D47C6700C6C97D /* memo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = memo.md; sourceTree = "<group>"; };
 		ADAD913B22B0FDAE007B460A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0DFFC22AFA6090030352D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				ADB0E00522AFA60E0030352D /* Assets.xcassets */,
 				ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */,
 				ADB0E00A22AFA60E0030352D /* Info.plist */,
+				304C8EA228D47C6700C6C97D /* memo.md */,
 			);
 			path = "Dicee-iOS13";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */,
 				ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */,
 				ADAD913C22B0FDAE007B460A /* README.md in Resources */,
+				304C8EA328D47C6700C6C97D /* memo.md in Resources */,
 				ADB0E00422AFA6090030352D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GZN596927;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kim-Dong-Jun.Dicee-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -306,12 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GZN596927;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kim-Dong-Jun.Dicee-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
