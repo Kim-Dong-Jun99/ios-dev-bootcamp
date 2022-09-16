@@ -13,6 +13,7 @@
 		30ADB78328D43A5B00365426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ADB78128D43A5B00365426 /* Main.storyboard */; };
 		30ADB78528D43A5C00365426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ADB78428D43A5C00365426 /* Assets.xcassets */; };
 		30ADB78828D43A5C00365426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ADB78628D43A5C00365426 /* LaunchScreen.storyboard */; };
+		30ADB79028D43C2200365426 /* memo.md in Resources */ = {isa = PBXBuildFile; fileRef = 30ADB78F28D43C2200365426 /* memo.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		30ADB78428D43A5C00365426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30ADB78728D43A5C00365426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30ADB78928D43A5C00365426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30ADB78F28D43C2200365426 /* memo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = memo.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				30ADB78428D43A5C00365426 /* Assets.xcassets */,
 				30ADB78628D43A5C00365426 /* LaunchScreen.storyboard */,
 				30ADB78928D43A5C00365426 /* Info.plist */,
+				30ADB78F28D43C2200365426 /* memo.md */,
 			);
 			path = "I Am Rich";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30ADB79028D43C2200365426 /* memo.md in Resources */,
 				30ADB78828D43A5C00365426 /* LaunchScreen.storyboard in Resources */,
 				30ADB78528D43A5C00365426 /* Assets.xcassets in Resources */,
 				30ADB78328D43A5B00365426 /* Main.storyboard in Resources */,
