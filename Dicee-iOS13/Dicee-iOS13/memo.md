@@ -19,3 +19,4 @@
     }
 ``` 
 UIImage(imageLiteralResourceName)을 사용해서 동적으로 첫번째 주사위를 6으로 설정하였다. userInteraction은 어떻게 감지하고 정의할까. 버튼을 코드에다가 끌어다보면 자동으로 액션으로 잡힌다. outlet으로 변경해서 디자인을 변경할 수도 있다. 이벤트에는 여러가지가 있는데, TouchUpInside가 일반적인 터치이다. 
+const, let, var 으로 나눠지는 이유는?? let은 여기서는 상수인 것 같아. let을 주로 사용하고 값이 변할때만 var을 사용하자. 스위프트가 최적화를 해서 let이 더 유리한 것 같다.
