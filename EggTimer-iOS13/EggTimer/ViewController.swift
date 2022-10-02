@@ -9,17 +9,46 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var titleLabel: UILabel!
     
-    /*
-     let dict : [String:Int] = ["djkim":24]
-     */
+    @IBOutlet weak var progressBar: UIProgressView!
     
-    let eggTimes = ["Soft":5,"Medium":7,"Hard":12]
+    
+    let eggTimes = ["Soft":300,"Medium":420,"Hard":720]
+    
+    var secondsRemaining : Float = 60
+    
+    var totalTime : Float = 0
+    
+    var timer = Timer()
+    
 
     @IBAction func hardnessSelected(_ sender: UIButton) {
-        print(sender.titleLabel!)
+        progressBar.progress = 1
+        timer.invalidate()
+        // 이 코드가 잇어야지 버튼을 변경해가면서 누를때, 타이머가 빨라지는 것을 방지할 수 있다
         
-        print(eggTimes[sender.currentTitle!]!)
+        let hardness = sender.currentTitle!
+        
+        secondsRemaining = Float(eggTimes[hardness]!)
+        
+        totalTime = Float(secondsRemaining)
+        
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+        
+    }
+    
+    @objc func updateTimer(){
+        if secondsRemaining > 0{
+            print("\(secondsRemaining) seconds")
+            secondsRemaining -= 1
+            titleLabel.text = "\(secondsRemaining) seconds"
+            progressBar.progress = secondsRemaining / totalTime
+            
+        }else {
+            timer.invalidate()
+            titleLabel.text = "Done"
+        }
     }
     
 }
