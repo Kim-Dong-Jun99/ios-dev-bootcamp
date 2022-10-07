@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     
     @IBOutlet weak var progressBar: UIProgressView!
+    
+    var player : AVAudioPlayer!
     
     
     let eggTimes = ["Soft":300,"Medium":420,"Hard":720]
@@ -50,5 +53,7 @@ class ViewController: UIViewController {
             titleLabel.text = "Done"
         }
     }
+    
+    
     
 }
