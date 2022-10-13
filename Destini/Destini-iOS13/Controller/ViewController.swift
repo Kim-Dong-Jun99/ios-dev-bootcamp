@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var Choice1Button: UIButton!
+    @IBOutlet weak var Choice2Button: UIButton!
+    @IBOutlet weak var StoryLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
+    
 
-
+    @IBAction func storyButtonChosen(_ sender: UIButton) {
+        
+    }
+    
 }
 
